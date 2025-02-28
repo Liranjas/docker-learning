@@ -1,0 +1,49 @@
+Script started on 2025-02-28 18:31:12-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="72" LINES="34"]
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container pause [K[K[K[K[K[K[K[K[K[K[Kiner ls
+[?2004lCONTAINER ID   IMAGE     COMMAND       CREATED          STATUS          PORTS     NAMES
+41e973c1c706   ubuntu    "/bin/bash"   28 minutes ago   Up 28 minutes             watchtime
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container ls[K[Kpause watchtime
+[?2004lError response from daemon: cannot pause container 41e973c1c706bddcb54fb753bd240cfbcd979090fa9c4ed1784a5a279e51f247: OCI runtime pause failed: cannot toggle freezer: cgroups not configured for container: unknown
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [7mdocker stop watchtime[27mdocker stop watchtime
+[?2004lwatchtime
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker stop watchtime[11@container pause[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container ls -a
+[?2004lCONTAINER ID   IMAGE         COMMAND       CREATED             STATUS                         PORTS     NAMES
+41e973c1c706   ubuntu        "/bin/bash"   30 minutes ago      Exited (137) 38 seconds ago              watchtime
+2f527ed24d5d   ubuntu        "/bin/bash"   45 minutes ago      Exited (137) 40 minutes ago              liranjas
+df1b190b47c1   ubuntu        "/bin/bash"   54 minutes ago      Exited (0) 50 minutes ago                heuristic_brahmagupta
+db4cb6b39092   ubuntu        "/bin/bash"   About an hour ago   Exited (0) About an hour ago             elated_spence
+fc6888a1e78a   hello-world   "/hello"      About an hour ago   Exited (0) About an hour ago             funny_robinson
+28be7464c99e   hello-world   "/hello"      22 hours ago        Exited (0) 22 hours ago                  eloquent_beaver
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [K]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [K]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ c[Kcg[K[Kecho ""i"'"l"l" "a"d"d"r"e"s"s" "t"h"e" "c"g"r"o"p"[1P"u"p"s" "l"a"t"e"r"," "f"o"r"[1P"[1P"[1P"f"o"r" "w" [A]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch"o"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu" [A]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn"f"a"m"i"l"i"a"r"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct" [A]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch"o"s"e" "u"n"f"a"m"i"l"i"a"r" "i"t"'"s" "a" "l"i"n"u"x" "k"e"r"n"e"l" "f"e"a"t"u"r"e" "u"s"e"d" "b"y" "d"o"c"k"e"r" "t"h"a"t" "c"o"n"t"r"o"l"s" "p"r"o"c"c"e"[1P"[1P"e"s"s" " [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr"e"s"o"u"r"c"e" "u"s"a"g"e"
+[?2004li'll address the cgroups later, for those unfamiliar it's a linux kernel feature used by docker that controls process resource usage
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ echo "i'll address the cgroups later, for those unfamiliar it's a linux kernel feature used by docker that controls process resource usage"[A[A]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ [22Pdocker container ls -a
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container ls -a
+[?2004lCONTAINER ID   IMAGE         COMMAND       CREATED             STATUS                         PORTS     NAMES
+41e973c1c706   ubuntu        "/bin/bash"   36 minutes ago      Exited (137) 6 minutes ago               watchtime
+2f527ed24d5d   ubuntu        "/bin/bash"   51 minutes ago      Exited (137) 46 minutes ago              liranjas
+df1b190b47c1   ubuntu        "/bin/bash"   About an hour ago   Exited (0) 56 minutes ago                heuristic_brahmagupta
+db4cb6b39092   ubuntu        "/bin/bash"   About an hour ago   Exited (0) About an hour ago             elated_spence
+fc6888a1e78a   hello-world   "/hello"      About an hour ago   Exited (0) About an hour ago             funny_robinson
+28be7464c99e   hello-world   "/hello"      23 hours ago        Exited (0) 23 hours ago                  eloquent_beaver
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container t[Krm watchtime
+[?2004lwatchtime
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ docker container rm watchtime[7Pls -a
+[?2004lCONTAINER ID   IMAGE         COMMAND       CREATED             STATUS                         PORTS     NAMES
+2f527ed24d5d   ubuntu        "/bin/bash"   51 minutes ago      Exited (137) 46 minutes ago              liranjas
+df1b190b47c1   ubuntu        "/bin/bash"   About an hour ago   Exited (0) 56 minutes ago                heuristic_brahmagupta
+db4cb6b39092   ubuntu        "/bin/bash"   About an hour ago   Exited (0) About an hour ago             elated_spence
+fc6888a1e78a   hello-world   "/hello"      About an hour ago   Exited (0) About an hour ago             funny_robinson
+28be7464c99e   hello-world   "/hello"      23 hours ago        Exited (0) 23 hours ago                  eloquent_beaver
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ echo ""w"a"t"c"h"t"i"m"e" "r"e"m"o"v"e"d"
+[?2004lwatchtime removed
+[?2004h]0;lliranjas@Laptop7: ~/docker-learning[01;32mlliranjas@Laptop7[00m:[01;34m~/docker-learning[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-28 18:42:11-03:00 [COMMAND_EXIT_CODE="0"]
