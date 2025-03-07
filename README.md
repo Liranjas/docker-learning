@@ -97,6 +97,7 @@ ps aux | grep nginx
 
 ### Split terminal view example with two previous commands:
 
+![docker](https://github.com/user-attachments/assets/126f5bb0-7e73-45d9-aaa5-76e6c6e74977)
 
 
 ### Map your host's port 8080 to the Nginx container port 80
