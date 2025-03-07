@@ -8,7 +8,7 @@ Basic report on Docker Engine. Tried to use script utility but didn't like the r
 curl -fsSL https://get.docker.com | bash
 
 ### Set Docker daemon in rootless mode
-dockerd-rootless-setuptool.sh install  ### Corrected command
+dockerd-rootless-setuptool.sh install  
 
 ### May need this for setting up too
 sudo apt-get install -y uidmap
